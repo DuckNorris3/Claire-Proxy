@@ -1,17 +1,9 @@
 header {
   display: flex;
   flex-direction: row;
-  background-color: rgb(30, 0, 72);
-  margin: 0 0 0 -8px;
-}
-a {
-  padding-left: 10px;
+  margin-left: 5px
 }
 
-#logo {
-  display: flex;
-  width: 93%;
-}
 #photo-carousel {
   width: 100%;
   display: flex;
@@ -28,8 +20,9 @@ a {
 #campsiteHostInfo {
   width: 60%;
 }
+
 #booking {
-  width: 40%;
+  width: 50%;
   position: relative;
   top: -40px
 }
