@@ -42,6 +42,11 @@ header {
   color: #333333;
   margin: 0 12px;
   font-size: 16px;
+  cursor: pointer;
+}
+
+.menu-link:hover {
+  border-bottom: #40d9ac solid 1px;
 }
 
 #host-button {
@@ -49,8 +54,17 @@ header {
   color: white;
   border: none;
   padding: 13px 11px;
-  border-radius:3px;
+  border-radius:4px;
+  transition: background-color 0.1s ease 0.1s, border-color 0.1s ease 0s, color 0.1s ease 0s;
 }
+
+#host-button:hover {
+  background-color: white;
+  color: #40d9ac;
+  border: #40d9ac solid 3px;
+  padding: 10px 8px;
+}
+
 #photo-carousel {
   width: 100%;
   display: flex;
