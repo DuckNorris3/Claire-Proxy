@@ -1,7 +1,107 @@
 header {
   display: flex;
   flex-direction: row;
-  margin-left: 5px
+  flex-wrap: nowrap;
+  font-family: Calibre, Helvetica, Arial, sans-serif;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.top-banner {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 40px;
+  font-size: 0.92em;
+  color: #fff;
+  background-color: #41305C;
+  z-index: 1000;
+}
+#covid-info {
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+#covid-info:hover {
+  border:none;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: 5px;
+}
+
+#logo {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.search {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items:center;
+  border-radius: 4px;
+  border: 1px solid #ebebeb;
+  padding: 3px 9px;
+  padding-right: 60px;
+  color: rgb(140, 154, 168);
+}
+
+input {
+  border: none;
+  padding: 10px 5px;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-family: inherit;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  height: 130px;
+  margin-top: 5px;
+}
+
+.menu-link {
+  color: #333333;
+  margin: 0 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menu-link:hover {
+  border-bottom: #40d9ac solid 1px;
+}
+
+#host-button {
+  background-color: #40d9ac;
+  color: white;
+  border: none;
+  padding: 13px 11px;
+  border-radius:4px;
+  transition: background-color 0.1s ease 0.1s, border-color 0.1s ease 0s, color 0.1s ease 0s;
+}
+
+#host-button:hover {
+  background-color: white;
+  color: #40d9ac;
+  border: #40d9ac solid 3px;
+  padding: 10px 8px;
 }
 
 #photo-carousel {
@@ -11,10 +111,11 @@ header {
 }
 
 #infoAndDates {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: nowrap;
+  margin: 0;
 }
 
 #campsiteHostInfo {
