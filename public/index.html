@@ -3,13 +3,20 @@
  <head>
    <title>TentHop Proxy</title>
    <link rel="stylesheet" href="styling.css">
+   <script src="https://kit.fontawesome.com/f157e3f326.js" crossorigin="anonymous"></script>
  </head>
  <body>
    <header>
+     <div class="top-banner">
+       <div class="banner-content">
+         Recreate responsibly during COVID-19. Learn more <a id="covid-info">here</a>.
+       </div>
+     </div>
      <div class="left">
         <a id="logo"> <img src="https://tenthop.s3.us-east-2.amazonaws.com/tenthop+logo.png" alt="TentHop logo" width="125" height="125"/></a>
-        <div >
-          <input class="search">
+        <div class="search">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Try Mars, Atlantis, Kansas">
         </div>
      </div>
      <div class="right">
@@ -20,17 +27,17 @@
        <div class="menu-link">Sign up</div>
        <button id="host-button" class="menu-link">Start hosting</button>
      </div>
-  </header>
-  <div id="photo-carousel">
-    <div id="photo-module"></div>
-    <div id="photo-carousel-modal"></div>
-  </div>
-  <div id="infoAndDates">
-    <div id="campsiteHostInfo"></div>
-    <aside id= "booking"></aside>
-  </div>
-  <script src="http://127.0.0.1:3001/bundle.js"></script>
-  <script src="http://127.0.0.1:3003/bundle.js"></script>
-  <script src="http://127.0.0.1:3002/bundle.js"></script>
+    </header>
+    <div id="photo-carousel">
+      <div id="photo-module"></div>
+      <div id="photo-carousel-modal"></div>
+    </div>
+    <div id="infoAndDates">
+      <div id="campsiteHostInfo"></div>
+      <aside id= "booking"></aside>
+    </div>
+    <script src="http://127.0.0.1:3001/bundle.js"></script>
+    <script src="http://127.0.0.1:3003/bundle.js"></script>
+    <script src="http://127.0.0.1:3002/bundle.js"></script>
  </body>
 </html>
