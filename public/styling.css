@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px
+}
+
+#photo-carousel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#infoAndDates {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+#campsiteHostInfo {
+  width: 60%;
+}
+
+#booking {
+  width: 50%;
+  position: relative;
+  top: -40px
+}
