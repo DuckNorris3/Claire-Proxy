@@ -9,21 +9,13 @@
  - https://github.com/DuckNorris3/Owen-Photos
  - https://github.com/DuckNorris3/Booking
 
-## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
 
 ## Usage
-
+> Install dependencies: npm install
 > Start server: npm start
 
 ## Requirements
 
 - Node v12.18.3
 
-### Installing Dependencies
-
-From within the root directory:
-npm install
 ```
